@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24103780",
+      "name": "甜甜圈",
+      "font_class": "tiantianquan",
+      "unicode": "fa67",
+      "unicode_decimal": 64103
+    },
+    {
+      "icon_id": "25163421",
+      "name": "酒店预订",
+      "font_class": "jiudianyuding",
+      "unicode": "fd2d",
+      "unicode_decimal": 64813
+    },
+    {
+      "icon_id": "25163425",
+      "name": "同城外卖",
+      "font_class": "tongchengwaimai",
+      "unicode": "fd2e",
+      "unicode_decimal": 64814
+    },
+    {
+      "icon_id": "25163430",
+      "name": "百货超市",
+      "font_class": "baihuochaoshi",
+      "unicode": "fd2f",
+      "unicode_decimal": 64815
+    }
+  ]
+}

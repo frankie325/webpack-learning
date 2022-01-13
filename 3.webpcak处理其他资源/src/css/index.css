@@ -1,0 +1,9 @@
+/* 引入字体图标文件 */
+@import "../font/iconfont.css"; 
+
+div {
+    /* 引入图片资源 */
+    background-image: url("../images/bjx.jpg");
+    background-size: contain;
+    /* background-position: 0 0; */
+}
