@@ -14,11 +14,22 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
+                exclude: /node_nodules/, //第三方库中可能使用了polyfill，和babel可能会产生冲突，进行排除
                 use: [
                     {
                         loader: "babel-loader",
                         options: {
-                            presets: ["@babel/preset-env"],
+                            // plugins: ["@babel/plugin-transform-arrow-functions", "@babel/plugin-transform-block-scoping"], // 可以安装对应的插件来进行对应功能的转换
+                            // presets: ["@babel/preset-env"], //预设插件，多个插件的组合。
+                            // presets: [
+                            //     [
+                            //         "@babel/preset-env",
+                            //         {
+                            //             targets: ["chrome 88"], //可以指定适配的浏览器
+                            //             modules: "commonjs", //将esModule转换为CommonJs
+                            //         },
+                            //     ],
+                            // ],
                         },
                     },
                 ],

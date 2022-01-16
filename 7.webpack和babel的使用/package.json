@@ -8,11 +8,15 @@
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "core-js": "^3.20.3",
+        "regenerator-runtime": "^0.13.9"
+    },
     "devDependencies": {
         "@babel/cli": "^7.16.8",
         "@babel/core": "^7.16.7",
         "@babel/plugin-transform-arrow-functions": "^7.16.7",
+        "@babel/plugin-transform-block-scoping": "^7.16.7",
         "@babel/preset-env": "^7.16.8",
         "autoprefixer": "^10.4.2",
         "babel-loader": "^8.2.3",

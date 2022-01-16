@@ -1,3 +1,6 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 const message = "Hello Babel";
 
 const foo = (info) => {
@@ -5,3 +8,5 @@ const foo = (info) => {
 };
 
 foo(message);
+
+const p = new Promise((resolve, reject) => {});
