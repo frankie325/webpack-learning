@@ -9,14 +9,8 @@ module.exports = {
                 corejs: 3, //Polyfill默认使用corejs的版本为2，但是安装的是3的版本，会报错，所以指定为使用3的版本
             },
         ],
-        ["@babel/preset-react"],
     ],
-    // plugins: [
-    //     [
-    //         "@babel/plugin-transform-runtime",
-    //         {
-    //             corejs: 3,
-    //         },
-    //     ],
-    // ],
+    plugins: [
+        // ["react-refresh/babel"]
+    ],
 };

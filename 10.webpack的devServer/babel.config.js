@@ -11,12 +11,7 @@ module.exports = {
         ],
         ["@babel/preset-react"],
     ],
-    // plugins: [
-    //     [
-    //         "@babel/plugin-transform-runtime",
-    //         {
-    //             corejs: 3,
-    //         },
-    //     ],
-    // ],
+    plugins: [
+        // ["react-refresh/babel"]
+    ],
 };
