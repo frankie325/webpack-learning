@@ -53,7 +53,10 @@ module.exports = {
         ],
     },
     devServer: {
-        hot: true, //开启HMR
+        // hot: true, //开启HMR
+        hot: "only", //当模块中有报错时，修复了报错，不会直接刷新页面
+        // host: "0.0.0.0", //在同一个网段下的主机中，通过ip是直接可以访问的
+        open: true, //开启本地服务完毕后，自动打开浏览器
         client: {
             overlay: {
                 //控制警告、错误信息是否在浏览器显示

@@ -1,0 +1,1 @@
+{"version":3,"file":"js/index.js","mappings":";;;;;AAAA","sources":["webpack://webpack-config/./src/index.js"],"sourcesContent":["console.log(\"Hello webpack\")\r\n"],"names":[],"sourceRoot":""}

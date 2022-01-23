@@ -19,7 +19,7 @@
     4.live-server每次多会重新刷新整个页面
 */
 
-// import "./math";
+import "./math";
 
 
 // let message = "hello webpack";
@@ -28,12 +28,12 @@
 //     return message;
 // }
 
-// if (module.hot) {
-//     // 哪些模块想要使用热更新，则引入哪些模块
-//     module.hot.accept("./math.js", function () {
-//         console.log("热更新完成");
-//     });
-// }
+if (module.hot) {
+    // 哪些模块想要使用热更新，则引入哪些模块
+    module.hot.accept("./math.js", function () {
+        console.log("热更新完成");
+    });
+}
 
 // import React from "react";
 // import ReactDOM from "react-dom";
