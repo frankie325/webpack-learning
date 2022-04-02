@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[1],{80:(s,e,u)=>{function c(s,e){console.log(s+e)}u.r(e),u.d(e,{sum:()=>c})}}]);

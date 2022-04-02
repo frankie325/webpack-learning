@@ -1,0 +1,1 @@
+const n="我是kfg";function o(){return"foo"}class Person{constructor(n){this.name=n}}new Person("kfg");

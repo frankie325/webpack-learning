@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(s){this.name=s}}("kfg")})();
