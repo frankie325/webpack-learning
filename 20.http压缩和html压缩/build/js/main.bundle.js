@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[179],{971:()=>{window.abc="abc",console.log(2),new class{constructor(s){this.name=s}}("kfg")}},s=>{s(s.s=971)}]);
